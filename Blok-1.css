@@ -1,11 +1,17 @@
 body{
   margin: 0;
 }
+.Tel>p, .email>p, .o-c3>p{
+  margin: 0 0 0 10px;
+}
+.cof1>img, .o-c>img{
+  margin: -20px 0 0 0;
+}
 
 .one-id{
   height: 729px;
   width: 1440px;
-  background-image: url("coffe.png");
+  background-image: url("img/coffe.png");
 }
 a{
   text-decoration: none;
@@ -22,6 +28,7 @@ a{
   justify-content: space-around;
   align-items: center;
 }
+
 a{
   color: #FFF;
   font-family: "Open Sans", sans-serif;
@@ -238,7 +245,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("dark.png");
+  background-image: url("img/dark.png");
 }
 .TT{
   height: 80%;
@@ -286,6 +293,7 @@ nav{
   font-style: normal;
   line-height: 150%; /* 36px */
 }
+
 .i1, .i2, .i3, .i4{
   height: 50px;
   width: 50px;
@@ -391,7 +399,7 @@ nav{
   width: 1440px;
   height: 376px;
   margin: 200px 0 0 0;
-  background: #0D0402 url("Group 433.png");
+  background: #0D0402 url("img/Group 433.png");
   color: white;
 }
 .general{
